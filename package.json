@@ -1,0 +1,26 @@
+{
+  "name": "hexo-filter-typograf",
+  "version": "0.0.1",
+  "main": "index",
+  "description": "Filtering hexo posts with JavaScript Typograf https://typograf.github.io",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:f213/hexo-filter-typograf"
+  },
+  "keywords": [
+    "typograf",
+    "hexo"
+  ],
+  "author": "Fedor Borshev <f@f213.in> (http://f213.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f213/hexo-filter-typograph/issues"
+  },
+  "homepage": "https://github.com/f213/hexo-filter-typograph",
+  "dependencies": {
+    "typograf": "^2.11.0"
+  }
+}
