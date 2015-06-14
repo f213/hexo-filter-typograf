@@ -8,6 +8,9 @@ if(hexo.config.language == 'ru'){
 }
 
 hexo.extend.filter.register('after_post_render', function(data) {
+    if(data.path.match(/\.(css|js)$/)){
+        return data;
+    }
     data.content = tp.execute(data.content);
     return data;
 });
