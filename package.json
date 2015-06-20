@@ -2,9 +2,9 @@
   "name": "hexo-filter-typograf",
   "version": "0.0.1",
   "main": "index",
-  "description": "Filtering hexo posts with JavaScript Typograf https://typograf.github.io",
+  "description": "Filtering hexo posts with JavaScript Typograf https://typograf.github.io. Very usefull for those Russians who love typography.",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
