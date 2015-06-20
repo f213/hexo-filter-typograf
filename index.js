@@ -5,6 +5,7 @@ var Typograf = require('typograf'),
 
 if(hexo.config.language == 'ru'){
     tp.enable('ru/money/ruble');
+    tp.disable('ru/optalign');
 }
 
 hexo.extend.filter.register('after_post_render', function(data) {
