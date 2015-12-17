@@ -11,11 +11,16 @@ var richtypoRules = [
     'restore_tags'
 ];
 
+hexo.extend.f
 hexo.extend.filter.register('after_post_render', function(data) {
     if(data.path.match(/\.(css|js)$/)){
         return data;
     }
+    data.content = data.content.replace(/\n\ +/g, ' ');
     data.content = richtypo.richtypo(data.content, richtypoRules, hexo.config.language);
+
+    data.content = data.content.replace(/<\/?nobr\/?>/g, '');
+    data.content = data.content.replace(/\ +/g, ' ');
 
     return data;
 });
