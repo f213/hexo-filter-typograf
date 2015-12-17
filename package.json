@@ -1,8 +1,8 @@
 {
   "name": "hexo-filter-typograf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index",
-  "description": "Filtering hexo posts with JavaScript Typograf https://typograf.github.io. Very usefull for those Russians who love typography.",
+  "description": "Filtering hexo posts with Richtypo.js. Very usefull for those Russians who love typography.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,20 +17,15 @@
   "author": {
     "name": "Fedor Borshev",
     "email": "f@f213.in",
-    "url": "http://f213.in/"
+    "url": "https://f213.in/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/f213/hexo-filter-typograph/issues"
+    "url": "https://github.com/f213/hexo-filter-typograf/issues"
   },
-  "homepage": "https://github.com/f213/hexo-filter-typograph",
+  "homepage": "https://github.com/f213/hexo-filter-typograf",
   "dependencies": {
     "lodash": "^3.10.1",
-    "typograf": "^2.11.0"
-  },
-  "readme": "# hexo-filter-typograf\n\nThis a [Hexo](https://hexo.io/) plugin for running all your posts through the [Typograf](https://github.com/typograf/typograf).\n\nNo tests or config variables.",
-  "readmeFilename": "README.md",
-  "_id": "hexo-filter-typograf@0.0.1",
-  "_shasum": "c0816f02b15285fdec35d0f64c6e615f0a4128ca",
-  "_from": "hexo-filter-typograf@>=0.0.1 <0.0.2"
+    "richtypo": "^0.1.8"
+  }
 }
