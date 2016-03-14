@@ -1,5 +1,3 @@
-'use strict';
-
 var richtypo = require('richtypo');
 
 var richtypoRules = [
@@ -11,8 +9,8 @@ var richtypoRules = [
     'restore_tags'
 ];
 
-hexo.extend.f
 hexo.extend.filter.register('after_post_render', function(data) {
+    'use stirct';
     if(data.path.match(/\.(css|js)$/)){
         return data;
     }
